@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.co.nobugs</groupId>
     <artifactId>nobugs-exception</artifactId>
-    <version>2.0</version>
+    <version>3.0.1</version>
     <name>NoBugs exception</name>
     <description>NoBugs Exception Handling for all projects</description>
     <url/>
