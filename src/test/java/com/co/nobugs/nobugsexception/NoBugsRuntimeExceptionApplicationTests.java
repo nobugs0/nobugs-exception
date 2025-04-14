@@ -1,10 +1,10 @@
-package com.NoBugs.nobugs_exception;
+package com.co.nobugs.nobugsexception;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NoBugsExceptionApplicationTests {
+class NoBugsRuntimeExceptionApplicationTests {
 
 	@Test
 	void contextLoads() {
