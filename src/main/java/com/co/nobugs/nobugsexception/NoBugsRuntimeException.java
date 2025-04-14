@@ -4,6 +4,11 @@ import org.springframework.http.HttpStatus;
 
 public class NoBugsRuntimeException extends RuntimeException{
 
+	public NoBugsRuntimeException(String message) {
+		super(message);
+		this.httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+	}
+
 	public NoBugsRuntimeException(String message, Throwable cause, HttpStatus httpStatus) {
 		super(message, cause);
 		this.httpStatus = httpStatus;
